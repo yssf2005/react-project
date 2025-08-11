@@ -1,0 +1,63 @@
+/* style.css */
+
+body {
+  background-color: #0f0f0f;
+  color: #00ffe7;
+  font-family: 'Orbitron', sans-serif;
+  text-align: center;
+  padding: 50px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 2.5em;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px #00ffe7;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.2em;
+  margin: 15px 0;
+}
+
+input[type="number"] {
+  background-color: #1a1a1a;
+  border: 2px solid #00ffe7;
+  color: #00ffe7;
+  padding: 10px;
+  font-size: 1em;
+  border-radius: 5px;
+  width: 200px;
+  outline: none;
+  transition: box-shadow 0.3s ease;
+}
+
+input[type="number"]:focus {
+  box-shadow: 0 0 10px #00ffe7;
+}
+
+button {
+  background-color: #1a1a1a;
+  border: 2px solid #00ffe7;
+  color: #00ffe7;
+  padding: 10px 20px;
+  font-size: 1em;
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+  background-color: #00ffe7;
+  color: #0f0f0f;
+  box-shadow: 0 0 10px #00ffe7;
+}
+
+#message {
+  margin-top: 20px;
+  font-size: 1.2em;
+  color: #ff007c;
+  text-shadow: 0 0 5px #ff007c;
+}
